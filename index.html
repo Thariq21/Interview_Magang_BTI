@@ -3,7 +3,24 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>JavaScript Learning</title>
     </head>
-    <body></body>
+    <body>
+        <form action="">
+            <div class="header" style="margin-bottom: 30px">
+                <p>Soal (masukkan nilai tiap-tiap pertanyaan dalam soal yang dipisah dengan koma, maksimal 10 pertanyaan):</p>
+                <input type="text" name="nilai" id="nilai" />
+            </div>
+
+            <div class="input-container">
+                <label for="total">T:</label>
+                <input type="text" name="total" id="total" />
+                <button type="button" class="hitung">Hitung</button>
+            </div>
+
+            <div class="result" id="output"></div>
+        </form>
+
+        <script src="script.js"></script>
+    </body>
 </html>
